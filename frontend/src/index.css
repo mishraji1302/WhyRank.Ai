@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #09090b;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+code, .font-mono {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Black & Yellow Theme Panel */
+.yellow-card {
+  background-color: #121215;
+  border: 1px solid rgba(250, 204, 21, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+.yellow-card:hover {
+  border-color: rgba(250, 204, 21, 0.5);
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.15);
+}
+
+/* Inset Black Input/Panel */
+.black-inset {
+  background-color: #050507;
+  border: 1px solid rgba(250, 204, 21, 0.2);
+  border-radius: 12px;
+}
+
+/* Custom Yellow Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+  border: 1px solid rgba(250, 204, 21, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15;
+}
+
+.text-glow-yellow {
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+}

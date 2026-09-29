@@ -1,0 +1,35 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments, caches, and local output
+**/venv/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.py[cod]
+*.log
+
+# JavaScript dependencies and build output
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Model and Hugging Face caches created locally
+.cache/
+**/.cache/
+**/huggingface/
+
+# Disconnected datasets and retired XGBoost experiment artifacts
+data1/
+vyrank/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+.agents/
